@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ASOSIY SAHIFA</title>
+</head>
+<body>
+<header>
+  <a href="{% url 'home' %}"> Bosh Sahifa</a>
+  <a href="{% url 'about' %}"> Saytmiz Haqida</a>
+  <a href="{% url 'creator' %}"> dasturchi haqida</a>
+  <a href="{% url 'kitob' %}"> kitoblar haqida</a>
+</header>
+{% block content %}
+{% endblock content %}
+</body>
+</html>
